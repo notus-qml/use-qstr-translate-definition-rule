@@ -1,6 +1,6 @@
-import { TestExecutor, Test, compare, TestDiagnosticRule } from "notus-qml-test";
+import { TestExecutor, Test, compare, TestDiagnostic } from "notus-qml-test";
 
-@TestDiagnosticRule("use-qstr-translate-definition-rule")
+@TestDiagnostic("use-qstr-translate-definition-rule")
 export class UseQstrTranslateDefinitionRuleTest {
 
     @Test('QStr Translate Definition')
